@@ -26,7 +26,7 @@ The unit tests have helper methods that have been added to make creating tests e
 
 ### Ergonomic defaults for `hot` and `cold`
 
-In both `hot` and `cold` methods, value charecters specified in marble diagrams are emitted as strings unless a `values`
+In both `hot` and `cold` methods, value characters specified in marble diagrams are emitted as strings unless a `values`
 argument is passed to the method. Therefor:
 
 `hot('--a--b')` will emit `"a"` and `"b"` whereas
